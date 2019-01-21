@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <style>
+      .emoji {
+        display: flex
+      }
+      .icon_sprit {
+        background: url(./img/css_sprites.png) 0 0 no-repeat;
+        background-size: 880px 880px;
+      }
+      .emoji_happy, .emoji_angry, .emoji_cool {
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+      }
+      .emoji_happy {
+        background-position: -670px -10px;
+      }
+      .emoji_angry {
+        background-position: -450px -230px;
+      }
+      .emoji_cool {
+        background-position: -230px -10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Css Sprits</div>
+    <div class="emoji">
+      <span class="icon_sprit emoji_happy"></span>
+      <span class="icon_sprit emoji_angry"></span>
+      <span class="icon_sprit emoji_cool"></span>
+    </div>
+  </body>
+</html>
